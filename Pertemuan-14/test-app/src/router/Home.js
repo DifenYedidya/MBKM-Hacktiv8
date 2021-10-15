@@ -6,8 +6,12 @@ import {
     Flex,
     Button
   } from 'rebass';
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
+    const history = useHistory();
+    const handleClick = () => history.push('/Users');
+
     return(
         <>
             <Flex
@@ -38,6 +42,7 @@ const Home = () => {
                     variant='primary' 
                     mr={3}
                     bg='blue'
+                    onClick={handleClick}
                 >
                     User List
                 </Button>

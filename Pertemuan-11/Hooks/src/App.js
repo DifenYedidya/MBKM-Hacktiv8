@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import ReactDOM from 'react-dom';
 
 function Header() {
     return(
@@ -76,16 +75,16 @@ function EffectReact(){
 function App(){
     return(
         <div className="container">
-        <Header/>
-        <hr/>
-        <Content/>
-        <hr/>
-        <Counter/>
-        <hr/>
-        <EffectReact/>
-        <hr/>
-        <Hero/>
-        <Footer/>
+            <Header/>
+            <hr/>
+            <Content/>
+            <hr/>
+            <Counter/>
+            <hr/>
+            <EffectReact/>
+            <hr/>
+            <Hero/>
+            <Footer/>
         </div>
     );
 }

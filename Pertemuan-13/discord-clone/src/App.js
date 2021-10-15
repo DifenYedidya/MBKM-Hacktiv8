@@ -154,8 +154,8 @@ function App() {
         px={2}
         py={2}
       >
-        <Box px={2} py={2} width={1/8}></Box>
-        <Box className='lastFeature' px={2} py={2} width={6/8}>
+        <Box px={2} py={5} width={1/8}></Box>
+        <Box className='lastFeature' px={2} py={5} width={6/8}>
         <Image className='imageGrid'
             src={star}
             variant='background'
@@ -170,9 +170,8 @@ function App() {
           </Heading>
           <DownloadHero/>
         </Box>
-        <Box px={2} py={2} width={1/8}></Box>
+        <Box px={2} py={5} width={1/8}></Box>
       </Flex>
-      <Footer/>
     </div>
   );
 }

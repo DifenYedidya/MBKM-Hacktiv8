@@ -3,9 +3,17 @@ import DiscordLogoWordmarkWhite from '../img/DiscordLogoWordmarkWhite.svg'
 import {
     Image,
     Flex,
-    Box,
-    Button
+    Box
   } from 'rebass/styled-components';
+import styled from 'styled-components';
+
+const ButtonNavbar = styled.button`
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    padding: 12px;
+    width: 120px;
+`
 
 function NavbarHero() {
     return ( 
@@ -35,9 +43,9 @@ function NavbarHero() {
             <Box
             px={2} py={2} width={1/3}
             >
-                <Button 
-                    color='black'
-                >Open Discord</Button>
+                <ButtonNavbar 
+
+                >Open Discord</ButtonNavbar>
             </Box>
         </Flex>
      );
