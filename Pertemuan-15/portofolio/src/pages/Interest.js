@@ -1,11 +1,19 @@
-import React from "react"
+import React from "react";
+import InterestImageList from "../components/InterestImageList";
 
-function Interest () {
+function Interest() {
   return (
-      <>
-        <h1>HELLO FROM INTEREST</h1>
-      </>
-  )
+    <>
+      <h1>Interest</h1>
+      <div>
+        <p>
+          Difen has interest in Front End Development, Badminton, Audio devices,
+          and JRPG Game
+        </p>
+        <InterestImageList />
+      </div>
+    </>
+  );
 }
 
-export default Interest
+export default Interest;
